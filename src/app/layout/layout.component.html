@@ -1,0 +1,9 @@
+<select class="form-control" id="number" name="number" [(ngModel)]="currentNumber">
+  <option *ngFor="let number of numbers">
+    {{number}}
+  </option>
+</select>
+
+<hr>
+
+<p>Current Number: {{currentNumber}}</p>
